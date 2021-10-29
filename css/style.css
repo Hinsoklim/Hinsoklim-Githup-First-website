@@ -1,0 +1,519 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.logo{
+    font-size: 2.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: brown;
+}
+span{
+    color: rgb(10, 82, 238);
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5rem;
+}
+ul,.search,.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.active{
+    background: goldenrod;
+}
+li{
+    margin-left: 20px;
+    list-style: none;
+    padding: 7px;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+
+
+.search input[type="search"]{
+    width: 50vw;
+    height: 5vh;
+    background: #eee;
+    font-size: larger;
+    font-family: serif;
+}
+
+
+
+
+.head{
+    background: rgb(194, 1, 99);
+    margin: auto;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6rem;
+    color: #eee;
+    border-bottom: 5px solid blue;
+    letter-spacing: 20px;
+}
+
+
+
+.button-head{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+button{
+    padding: 15px;
+    font-size: larger;
+    border: none; 
+    color: #fff;
+    width: 20vw;
+    cursor: pointer;
+}
+#btn-1{
+    background:goldenrod;
+}
+#btn-1:hover{
+    background: rgb(245, 184, 29);
+}
+#btn-2{
+    background: rgb(3, 3, 172);
+}
+#btn-2:hover{
+    background: rgb(6, 6, 226);
+}
+
+
+h1,p,h3{
+    text-align: center;
+}
+h1{
+    color: goldenrod;
+    margin-top: 5rem;
+    letter-spacing: 5px;
+}
+h6{
+    margin: 3px;
+    font-size: x-large;
+}
+p{
+    background: darkblue;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(211, 211, 211);
+    font-size: 20px;
+    border-bottom: 3px solid rgb(194, 1, 99);
+}
+
+
+.image-body{
+    height: 60vh;
+    background-image: url(../image/work.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.image-body{
+    font-size: 60px;
+    color: rgb(228, 163, 0);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+.course{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button button{
+    background: goldenrod;
+}
+.button button:hover{
+    background:rgb(218, 189, 31) ;
+    border: 3px solid blue;
+}
+.subject-program{
+    margin: 20px;
+    border-top: 4px solid rgb(194, 1, 99) ;
+    padding: 5px;
+    border-radius: 10px;
+}
+.subject-program h2{
+    background: rgb(138, 3, 70);
+    padding: 3px;
+    border-radius: 10px 20px 20px 0;
+    color:#fff;
+}
+.subject-program p{
+    border-radius: 10px;
+}
+
+.image-html-css-js{
+    background-image: url(../image/html-css-javascript.jpg);
+    height: 59rem;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    padding: 35px;
+    background-color: rgb(209, 209, 209);
+    border-top: 4px solid blue;
+}
+footer a{
+    margin-left: 3px;
+}
+footer .fa-facebook-square, footer .fa-telegram,footer .fa-twitter{
+    font-size: 25px;
+}
+.website h2{
+    letter-spacing: 25px;
+}
+
+
+/* About Page  ============================================*/
+
+form{
+    background: rgb(194, 1, 99);
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+form h1, form .fa-user-circle{
+    font-size: 3rem;
+    margin-top: 0;
+    color: #fff;
+}
+input[type="text"],input[type="email"],input[type="password"],input[type="submit"]{
+    width: 100%;
+    box-sizing: border-box;
+    height: 2.5rem;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+input[type="text"]:focus,input[type="email"]:focus,input[type="password"]:focus{
+    border: 5px solid blue;
+}
+input[type="submit"]{
+    background: goldenrod;
+    color: #fff;
+    font-size: x-large;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background: rgb(6, 156, 39);
+}
+label{
+    color: #fff;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer a{
+    display: flex;
+    justify-content: end;
+    color: #fff;text-decoration: underline;
+}
+
+.login{
+    display: flex;
+}
+.login .text{
+   margin-left: 5px;
+   font-size:25px;
+}
+.text h1{
+    font-size: 35px;
+}
+
+
+
+
+.image-computer{
+    /* background-image:linear-gradient(rgba(24, 23, 23, 0.75),rgba(5, 5, 5, 0.75)),url(../image/computer.jpg); */
+    opacity: 0.99;
+    background-image: url(../image/computer.jpg);
+    height: 90vh;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.image-computer h2{
+    color: #fff;
+    font-size: 4rem;
+}
+
+.star{
+    display: flex;
+    justify-content: flex-end;
+}
+.fa-star,.fa-star-half-empty,.fa-star-o{
+    color: goldenrod;
+}
+.service{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+}
+.card{
+    margin-right: 30px;
+    background: black;
+    padding: 15px;
+    box-sizing: border-box;
+    border-top: 4px solid red;
+    border-radius: 10px;
+}
+.head-star h2{
+    color: goldenrod;
+}
+#btn{
+    display: flex;
+    justify-content: center;
+}
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+#btns {
+    background: goldenrod;
+}
+#btns:hover{
+    background: rgb(230, 183, 67);
+}
+.style-image-website img{
+    margin-left: 5rem;
+}
+
+
+.style-image-website{
+    overflow: scroll;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin-top: 7rem;
+}
+
+
+.website-type-left{
+    overflow: scroll;
+    width: 28%;
+    height: 40rem;
+
+}
+.website-type-left h2{
+    background: rgb(3, 3, 110);
+    color: gold;
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 0 30px 30px 0;
+}
+
+.cost-website{
+    display: flex;
+}
+.cost-right{
+    overflow: scroll;
+    height: 40rem;
+}
+.cost-right h1{
+    margin-top: 5px;
+}
+.cost-right{
+    width: 55%;
+}
+.cost-right h3{
+    color: blue;
+    font-size: xx-large;
+}
+.card-price{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+}
+.card-company-website-price{
+    margin: 15px;
+    background: black ;
+    padding: 5px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+.card-company-website-price button{
+    background: green;
+    border-radius: 5px;
+}
+.card-company-website-price button:hover{
+    background: rgb(2, 172, 2);
+}
+.card-company-website-price h2{
+    color: goldenrod;
+}
+
+.cost-left{
+    width: 17%;
+}
+.btn-imfor button,p button{
+    background: rgb(194, 1, 99);
+    width: 10rem;
+    padding: 5px;
+    
+}
+.btn-imfor{
+    display: flex;
+    justify-content: center;
+}
+
+.map{
+    height: 90vh;
+}
+.name-computer h1{
+    color: #fff;
+    text-align: start;
+    font-size: 6rem;
+}
+
+.name-computer h1 span{
+    font-size: 20rem;
+    color: goldenrod;
+    text-decoration: underline #ffffe5;
+}
+
+
+
+.navi a{
+    color: #fff;
+    font-size: x-large;
+    margin-left: 30px;
+
+}
+.navi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navi a:hover{
+    text-decoration: underline;
+}
+
+.navigation-bar{
+    display: flex;
+    justify-content: space-around;
+    background: teal;
+
+}
+.fa-facebook-square:hover,.fa-telegram:hover,.fa-twitter:hover{
+    color: mediumblue;
+    cursor: pointer;
+    background: navajowhite;
+}
+.media li{
+    font-size: xx-large;
+}
+.container-p p{
+    background: rgb(24, 23, 23);
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: rgb(211, 211, 211);
+    font-size: 20px;
+    border-bottom: none;
+    width: 100%;
+    margin-bottom: 0;
+    
+}
+
+.container-image{
+    background-image: url(../image/computer.jpg);
+    height: 60vh;
+    background-position: center;
+    display: flex;justify-content: flex-start;
+    align-items: flex-end;
+}
+.container-web-about{
+    display: flex;
+    margin-top: 25px;
+    margin: 20px 20px;
+    margin-bottom: 0;
+}
+.card-about{
+    margin: 35px;
+    background: rgb(15, 15, 15);
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 0px;
+}
+.card-about h2{
+    color: #eee;
+}
+.card-about h5{
+    margin: 0;
+    padding: 7.5px;
+}
+.button-left-right button{
+    background-color: blue;
+    width: 45%;
+}
+
+#bttn{
+    background: brown;
+    margin-left: 5%;
+}
+#bttn:hover{
+    background: rgb(158, 117, 12);
+}
+
+.button-left-right{
+    display: flex;
+}
+
+.dell h4{
+    background: rgb(1, 1, 97);
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 11% 51%, 0% 0%);
+    padding: 20px;
+    color: rgb(209, 209, 209);
+    text-align: center;
+    font-size: xx-large;
+}
+
+
+.picture1{
+    display: flex;
+}
+.text-dell p{
+    background: none;
+    color: black;
+    border-top: 3px solid rgb(201, 8, 72);
+}
+
+.style{
+    background: rgb(6, 6, 226);
+    height: 30px;
+}
